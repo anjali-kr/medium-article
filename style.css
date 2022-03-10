@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat&family=Open+Sans:wght@300;400&family=Poppins:wght@300&display=swap');
+
+body{
+  color: darkslategray;
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  margin: 0px;
+}
+.banner{
+  color: white;
+  text-align: center;
+  text-shadow: 0px 2px 2px darkslategrey;
+  padding: 100px 20px;
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+}
+h1{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+}
+h2{
+  color: rgb(100,100,100);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.desc-text-white{
+  color: rgba(240,240,240,.8);
+  text-shadow: 0px 2px 5px slategray;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+a{
+  text-decoration: none;
+  color: rgba(20,20,20,.8);
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, rgb(245, 204, 204), rgb(235, 169, 169));
+  padding: 8px;
+}
+a:hover{
+  background-image: linear-gradient(45deg, rgb(207, 247, 245), rgb(122, 202, 192));
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+/* Media queries */
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .desc-text-white{
+    font-size: 35px;
+  }
+}
+/* Media queries */
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .desc-text-white{
+    font-size: 30px;
+  }
+}
